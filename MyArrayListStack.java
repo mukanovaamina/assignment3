@@ -1,9 +1,11 @@
-import java.util.EmptyStackException;
+import java.util.EmptyStackException; //necessary exception
+import MyArrayList;
 
 public class MyArrayListStack<E> {
-    private MyArrayList<E> list;
+    private MyArrayList<E> list; // instance variable of type MyArrayList
 
     public MyArrayListStack() {
-        list = new MyArrayList<>();
+        list = new MyArrayList<>(); // instance variable
     }
+
 }
