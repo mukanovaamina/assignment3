@@ -9,5 +9,11 @@ public class MyArrayListQueue<E> {
     public void enqueue(E element) { //method is to add an element to the back of the queue
         list.add(element);
     }
+    public E dequeue() { //method is to remove and return the front element of the queue
+        if (list.isEmpty()) {
+            throw new NoSuchElementException("Queue is empty");
+        }
+        return list.remove(0);
+    }
 
 }
