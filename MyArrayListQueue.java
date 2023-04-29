@@ -25,5 +25,8 @@ public class MyArrayListQueue<E> {
         return list.isEmpty();
     }
 
+    public int size() { //method is to return the number of elements in the queue
+        return list.size();
+    }
 
 }
