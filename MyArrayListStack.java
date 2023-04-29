@@ -7,5 +7,9 @@ public class MyArrayListStack<E> {
     public MyArrayListStack() {
         list = new MyArrayList<>(); // instance variable
     }
+    public void push(E element) { //push method that add element
+        list.add(element);
+    }
+
 
 }
