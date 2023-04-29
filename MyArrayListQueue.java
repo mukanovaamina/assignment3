@@ -21,5 +21,9 @@ public class MyArrayListQueue<E> {
         }
         return list.get(0);
     }
+    public boolean isEmpty() { // method is to determine whether the queue is empty
+        return list.isEmpty();
+    }
+
 
 }
