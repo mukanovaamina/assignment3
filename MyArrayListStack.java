@@ -20,4 +20,11 @@ public class MyArrayListStack<E> {
         return list.remove(list.size() - 1);
     }
 
+    public E peek() { // method that return the top element of the stack without removing it
+        if (list.isEmpty()) {
+            throw new EmptyStackException();
+        }
+        return list.get(list.size() - 1);
+    }
+
 }
