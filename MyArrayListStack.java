@@ -1,4 +1,6 @@
 import java.util.EmptyStackException; //necessary exception
+import java.util.NoSuchElementException;
+
 import MyArrayList;
 
 public class MyArrayListStack<E> {
@@ -11,5 +13,11 @@ public class MyArrayListStack<E> {
         list.add(element);
     }
 
+    public E pop() { //method is to remove and return the top element of a stack
+        if (list.isEmpty()) {
+            throw new NoSuchElementException("Stack is empty");
+        }
+        return list.remove(list.size() - 1);
+    }
 
 }
