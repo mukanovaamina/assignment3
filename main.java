@@ -5,5 +5,14 @@ public class main {
         MyArrayListQueue<String> queue = new MyArrayListQueue<>();
         MyArrayListStack<Integer> stack = new MyArrayListStack<>();
 
+        queue.enqueue("straykids");
+        queue.enqueue("bts");
+        queue.enqueue("blackpink");
+
+        stack.push(10);
+        stack.push(20);
+        stack.push(20);
+
+
     }
 }
