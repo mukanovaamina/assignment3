@@ -19,6 +19,13 @@ public class main {
         // Print the size of the stack
         System.out.println("Size of the stack: " + stack.size());
 
+        // Peek at the front element of the queue
+        System.out.println("Front element of the queue: " + queue.peek());
+
+        // Peek at the front element of the stack
+        System.out.println("Front element of the stack: " + stack.peek());
+
+
 
 
 
