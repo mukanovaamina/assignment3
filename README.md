@@ -36,27 +36,35 @@ Queue methods:
 1) public MyArrayListQueue() {
    list = new MyArrayList<>(); //instance variable
    }
+The MyArrayListQueue constructor initializes the list instance variable which is used to implement the queue. It creates a new instance of the MyArrayList class using the default constructor.
 
 2) public void enqueue(E element) { //method is to add an element to the back of the queue
    list.add(element);
    }
-   
+The enqueue method adding an element to the back of the queue. In the given implementation, the enqueue method takes an element of type E and adds it to the internal MyArrayList using the add method, which inserts the element at the end of the list.
+
 3) public E dequeue() { //method is to remove and return the front element of the queue
    if (list.isEmpty()) {
    throw new NoSuchElementException("Queue is empty");
    }
    return list.remove(0);
    }
+The dequeue method removing and returning the front element of the queue. The dequeue method first checks if the internal MyArrayList is empty using the isEmpty method. If the list is empty, a NoSuchElementException is thrown with the message "Queue is empty". Otherwise, the method removes the first element of the list using the remove method and returns it.
+
 4) public E peek() { // method is to return the front element of the queue without removing it
    if (list.isEmpty()) {
    throw new NoSuchElementException("Queue is empty");
    }
    return list.get(0);
    }
+The peek method returning the front element of the queue without removing it. The peek method first checks if the internal MyArrayList is empty using the isEmpty method. If the list is empty, a NoSuchElementException is thrown with the message "Queue is empty". Otherwise, the method returns the first element of the list using the get method.
+
 5) public boolean isEmpty() { // method is to determine whether the queue is empty
    return list.isEmpty();
    }
+The isEmpty method in a queue implementation determining whether the queue is empty or not. In the given implementation, the isEmpty method checks if the internal MyArrayList is empty using the isEmpty method and returns a boolean value accordingly.
+
 6) public int size() { //method is to return the number of elements in the queue
    return list.size();
    }
-
+The size method returning the number of elements in the queue. The size method returns the size of the internal MyArrayList object, which indicates the number of elements currently in the queue.
