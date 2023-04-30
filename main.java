@@ -40,6 +40,11 @@ public class main {
         // testing isEmpty method
         System.out.println("Stack is empty: " + stack.isEmpty());
 
+        // testing pop method
+        System.out.println("Popped element of stack: " + stack.pop());
+        System.out.println("Popped element of stack: " + stack.pop());
+
+
 
 
 
