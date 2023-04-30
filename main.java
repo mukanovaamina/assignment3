@@ -17,7 +17,9 @@ public class main {
         System.out.println("Size of the queue: " + queue.size());
 
         // Print the size of the stack
-        System.out.println(stack.size());
+        System.out.println("Size of the stack: " + stack.size());
+
+
 
 
 
