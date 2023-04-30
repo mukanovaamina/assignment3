@@ -23,3 +23,32 @@ Stack methods:
    return list.size();
    }
 
+Queue methods:
+1) public int size() { //method is to return the number of elements in the stack
+   return list.size();
+   }
+2) public E dequeue() { //method is to remove and return the front element of the queue
+   if (list.isEmpty()) {
+   throw new NoSuchElementException("Queue is empty");
+   }
+   return list.remove(0);
+   }
+3) public E dequeue() { //method is to remove and return the front element of the queue
+   if (list.isEmpty()) {
+   throw new NoSuchElementException("Queue is empty");
+   }
+   return list.remove(0);
+   }
+4) public E dequeue() { //method is to remove and return the front element of the queue
+   if (list.isEmpty()) {
+   throw new NoSuchElementException("Queue is empty");
+   }
+   return list.remove(0);
+   }
+5) public E dequeue() { //method is to remove and return the front element of the queue
+   if (list.isEmpty()) {
+   throw new NoSuchElementException("Queue is empty");
+   }
+   return list.remove(0);
+   }
+
