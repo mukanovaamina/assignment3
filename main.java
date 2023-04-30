@@ -44,7 +44,8 @@ public class main {
         System.out.println("Popped element of stack: " + stack.pop());
         System.out.println("Popped element of stack: " + stack.pop());
 
-
+        // testing pop method on empty stack
+        System.out.println("Popped element of stack: " + stack.pop()); // throws NoSuchElementException
 
 
 
