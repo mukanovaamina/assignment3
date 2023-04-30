@@ -13,6 +13,13 @@ public class main {
         stack.push(20);
         stack.push(20);
 
+        // Print the size of the queue
+        System.out.println("Size of the queue: " + queue.size());
+
+        // Print the size of the stack
+        System.out.println(stack.size());
+
+
 
     }
 }
