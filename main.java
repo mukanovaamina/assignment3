@@ -37,6 +37,14 @@ public class main {
             System.out.println("Caught exception: " + e.getMessage());
         }
 
+        // testing isEmpty method
+        System.out.println("Stack is empty: " + stack.isEmpty());
+
+
+
+
+
+
 
 
 
