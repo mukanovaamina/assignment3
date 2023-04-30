@@ -47,15 +47,5 @@ public class main {
         // testing pop method on empty stack
         System.out.println("Popped element of stack: " + stack.pop()); // throws NoSuchElementException
 
-
-
-
-
-
-
-
-
-
-
     }
 }
