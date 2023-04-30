@@ -1,8 +1,6 @@
 import java.util.EmptyStackException; //necessary exception
 import java.util.NoSuchElementException;
 
-import MyArrayList;
-
 public class MyArrayListStack<E> {
     private MyArrayList<E> list; // instance variable of type MyArrayList
 
