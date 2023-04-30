@@ -25,6 +25,19 @@ public class main {
         // Peek at the front element of the stack
         System.out.println("Front element of the stack: " + stack.peek());
 
+        // Dequeue and print all elements in the queue
+        while (!queue.isEmpty()) {
+            System.out.println("Dequeued: " + queue.dequeue());
+        }
+
+        // Try to dequeue from an empty queue
+        try {
+            queue.dequeue();
+        } catch (NoSuchElementException e) {
+            System.out.println("Caught exception: " + e.getMessage());
+        }
+
+
 
 
 
