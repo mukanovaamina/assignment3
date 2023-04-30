@@ -24,31 +24,30 @@ Stack methods:
    }
 
 Queue methods:
-1) public int size() { //method is to return the number of elements in the stack
-   return list.size();
+1) public MyArrayListQueue() {
+   list = new MyArrayList<>(); //instance variable
    }
-2) public E dequeue() { //method is to remove and return the front element of the queue
-   if (list.isEmpty()) {
-   throw new NoSuchElementException("Queue is empty");
+
+2) public void enqueue(E element) { //method is to add an element to the back of the queue
+   list.add(element);
    }
-   return list.remove(0);
-   }
+   
 3) public E dequeue() { //method is to remove and return the front element of the queue
    if (list.isEmpty()) {
    throw new NoSuchElementException("Queue is empty");
    }
    return list.remove(0);
    }
-4) public E dequeue() { //method is to remove and return the front element of the queue
+4) public E peek() { // method is to return the front element of the queue without removing it
    if (list.isEmpty()) {
    throw new NoSuchElementException("Queue is empty");
    }
-   return list.remove(0);
+   return list.get(0);
    }
-5) public E dequeue() { //method is to remove and return the front element of the queue
-   if (list.isEmpty()) {
-   throw new NoSuchElementException("Queue is empty");
+5) public boolean isEmpty() { // method is to determine whether the queue is empty
+   return list.isEmpty();
    }
-   return list.remove(0);
+6) public int size() { //method is to return the number of elements in the queue
+   return list.size();
    }
 
